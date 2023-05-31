@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Carousel/SlideShow</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+ 
+</head>
+<body>
+  <!--Carousel-->
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+    <!--indicators/dots-->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+    </div>
+
+    <!--The slideshow/carousel-->
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <img src="sunset(for 5pics).jpg" alt="Los Angeles" class="d-block w-100" height="714px">
+        <div class="carousel-caption">
+          <h3>Sunset</h3>
+          <p>to-do-list to do with him!</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="moon(5 pics).jpg" alt="New York" class="d-block w-100" height="714px">
+        <div class="carousel-caption">
+          <h3>Moon</h3>
+          <p>One of the thing that I want to watch together</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="latenight(for 5pics).jpg" alt="Paris" class="d-block w-100" height="714px">
+        <div class="carousel-caption">
+          <h3>LateNight Driving</h3>
+          <p>One Day...</p>
+        </div>
+      </div>
+   
+
+    <div class="carousel-item">
+        <img src="sunset tree(for 5pics).jpg" alt="Paris" class="d-block w-100" height="714px">
+        <div class="carousel-caption">
+          <h3>Sunset tree</h3>
+          <p>We can sit there...</p>
+        </div>
+      </div>
+    
+
+    <div class="carousel-item">
+        <img src="nightview tree(for 5pics).jpg" alt="Paris" class="d-block w-100" height="714px">
+        <div class="carousel-caption">
+          <h3>NightView tree</h3>
+          <p>We can count stars...</p>
+        </div>
+      </div>
+   
+
+    <!--Left and right controls/icons-->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo"data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    
+    <button class="carousel-control-next" type="button" data-bs-target="#demo"data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+
+  </div>
+</body>
+</html>
